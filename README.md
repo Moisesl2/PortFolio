@@ -1,69 +1,79 @@
-# React + TypeScript + Vite
+Portfólio de Habilidades - React
+Este projeto é um portfólio desenvolvido em React que exibe minhas habilidades profissionais e resumo, organizados em carrosséis separados por categorias, como Linguagens de Programação, Frameworks e Outros.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Visão Geral
+O portfólio apresenta cada grupo de habilidades em um carrossel responsivo, permitindo a visualização em dispositivos móveis e desktops com uma interface limpa e intuitiva.
 
-Currently, two official plugins are available:
+Funcionalidades
+Exibição de habilidades agrupadas por categoria em carrosséis independentes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Carrossel responsivo com quantidade variável de itens visíveis dependendo da largura da tela.
 
-## Expanding the ESLint configuration
+Animação automática dos carrosséis para melhorar a experiência visual.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Design limpo, simples e moderno.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Uso do Keen Slider para o carrossel com navegação fluida.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Tecnologias
+React (com TypeScript)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Keen Slider (carrossel)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+CSS Modules para estilização
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Estrutura do Projeto
+src/components/CarouselSection.tsx — componente do carrossel para cada categoria de habilidades.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+src/styles/App.module.css — estilos CSS do projeto.
+
+src/App.tsx — componente principal que usa múltiplos carrosséis para as diferentes categorias.
+
+Outros arquivos padrão de um projeto React criado com create-react-app ou similar.
+
+Como Rodar o Projeto
+Clone o repositório:
+
+bash
+Copiar
+Editar
+git clone https://github.com/seuusuario/seu-portfolio.git
+cd seu-portfolio
+Instale as dependências:
+
+bash
+Copiar
+Editar
+npm install
+# ou
+yarn install
+Rode o projeto em modo de desenvolvimento:
+
+bash
+Copiar
+Editar
+npm start
+# ou
+yarn start
+Acesse no navegador:
+
+arduino
+Copiar
+Editar
+http://localhost:3000
+Personalização
+Atualize os arrays de habilidades no componente principal para refletir suas próprias competências.
+
+Customize os estilos no CSS para ajustar cores, fontes e layout conforme sua preferência.
+
+Melhorias Futuras
+Adicionar seção de resumo profissional detalhado.
+
+Incluir links para projetos no GitHub ou outras redes sociais.
+
+Melhorar acessibilidade e SEO.
+
+Suporte a temas claro/escuro.
+
+Contato
+Você pode entrar em contato comigo pelo e-mail: seu.email@exemplo.com
