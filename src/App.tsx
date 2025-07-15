@@ -6,6 +6,31 @@ function App() {
   return (
     <div className={styles.container}>
       <h1>Portfólio - Moisés Henrique</h1>
+      <div className={styles.contactSection}>
+        <h2>Contato</h2>
+        <p><strong>Email:</strong> <a>moiseshenrique080@gmail.com</a></p>
+        <p>
+          <strong>LinkedIn: </strong>{" "}
+          <a
+            href="www.linkedin.com/in/moises-henrique-lima-holanda-110a23220"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            linkedin.com/in/moises-henrique-dev
+          </a>
+        </p>
+        <p>
+          <strong>GitHub:</strong>{" "}
+          <a
+            href="https://github.com/Moisesl2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github.com/Moisesl2
+          </a>
+        </p>
+      </div>
+
       <p>
         Graduando em tecnologia da informação e desenvolvedor full stack com 2 anos de experiência 
         em desenvolvimento e manutenção de aplicações Web. Atualmente atuando como front-end 
@@ -21,6 +46,8 @@ function App() {
       <CarouselSection title="Frameworks e Bibliotecas" items={skills.frameworks} />
       <CarouselSection title="Bancos de Dados" items={skills.DataBases} />
       <CarouselSection title="Outros Conhecimentos" items={skills.outros} />
+
+      
     </div>
   );
 }
