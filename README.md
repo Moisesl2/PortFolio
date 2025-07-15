@@ -12,5 +12,11 @@ Este projeto foi desenvolvido com o objetivo de apresentar de forma clara e visu
 - **CSS Modules** — Utilizado para aplicar estilos de forma escopada e organizada.
 - **Vite** — Ferramenta de build e desenvolvimento rápido para projetos front-end modernos.
 
+## 📬 Contato
+
+- **Email:** moiseshenrique080@gmail.com  
+- **LinkedIn:** (www.linkedin.com/in/moises-henrique-lima-holanda-110a23220)  
+- **GitHub:** (https://github.com/Moisesl2)
+
 ---
 
