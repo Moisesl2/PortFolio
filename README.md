@@ -2,7 +2,7 @@
 
 ## 📌 Propósito
 
-Este projeto foi desenvolvido com o objetivo de apresentar de forma clara e visual as minhas habilidades profissionais, separadas por categorias como **Linguagens de Programação**, **Frameworks** e **Outros Conhecimentos**. Cada grupo é exibido em carrosséis interativos e responsivos.
+Este projeto foi desenvolvido com o objetivo de apresentar de forma clara e visual as minhas habilidades profissionais, separadas por categorias como **Linguagens de Programação**, **Frameworks**, **Banco de Dados** e **Outros Conhecimentos**. Cada grupo é exibido em carrosséis interativos e responsivos.
 
 ## 🚀 Tecnologias Utilizadas
 
