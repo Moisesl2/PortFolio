@@ -34,7 +34,7 @@ function App() {
       <p>
         Graduando em tecnologia da informação e desenvolvedor full stack com 2 anos de experiência 
         em desenvolvimento e manutenção de aplicações Web. Atualmente atuando como front-end 
-        developer na AgCom Tecnologia com expertise em desenvolvimento front-end (React, Vue, 
+        developer na Webinity com expertise em desenvolvimento front-end (React, Vue, 
         Angular) e desenvolvimento back-end (Node, Django Rest Framework, Java, banco de dados 
         relacionais SQL). Sou proficiente nas linguagens JavaScript/TypeScript, ferramenta de 
         versionamento GIT e metodologias ágeis. Busco aplicar minhas habilidades afim de 
